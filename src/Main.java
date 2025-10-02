@@ -1,7 +1,36 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.awt.*;
+import java.util.Date;
+import java.util.Locale;
+
 public class Main {
-    public static void main(String[] args) {//TIP Pres <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text// to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
+    public static void main(String[] args) {
+//        System.out.println("Hello and welcome!");
+//        float cashFlow = 9_123_123_123L;
+//        byte age = 20;
+//        Date newDate = new Date();
+//        System.out.println(age);
+//        System.out.println(newDate);
+
+//        Point point1 = new Point(1, 2);
+//        Point point2 = point1;
+//        point1.x = 2;
+//        System.out.println(point2);
+//
+//        String newString = "              Hello World            ";
+//        System.out.println(newString);
+//        System.out.println(newString.toLowerCase());
+//        System.out.println(newString);
+//        System.out.println(newString.length());
+//        System.out.println(newString.indexOf("e"));
+//        System.out.println(newString.replace("World", "Mercy"));
+//        newString = newString.replace("World", "        Mercy    ");
+//        System.out.println(newString);
+//        System.out.println("trimmed: " + newString.trim());
+
+        System.out.println("Hello \\Jeremiah/");
+
+
+
+
     }
 }
