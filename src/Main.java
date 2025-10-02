@@ -3,6 +3,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -40,6 +41,27 @@ public class Main {
     //Multi-Dimensional Array
         int[][] trial = {{1,10,2,4},{2,4,5,6},{6,2,4,5},{6,2,4,5}};
         System.out.println(Arrays.deepToString(trial));
+
+//Constants
+        final int value = 10;//unchangeable
+
+//Mortgage Calculator
+        final byte MonthsOfTheYear = 12;
+        final byte Percent = 100;
+
+        int PrincipalValue;
+        double AnnualInterestRate;
+        int Periods;
+
+        Scanner valueFromTheUser = new Scanner(System.in);
+        System.out.print("Principal: ");
+        int principal = valueFromTheUser.nextInt();
+
+        System.out.print("Annual Interest Rate: ");
+        float annualInterest = valueFromTheUser.nextFloat();
+        float monthlyInterest = annualInterest / Percent / MonthsOfTheYear;
+
+
 
     }
 }
