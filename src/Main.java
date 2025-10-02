@@ -22,8 +22,8 @@ public class Main {
 //        System.out.println(newString);
 //        System.out.println(newString.length());
 //        System.out.println(newString.indexOf("e"));
-//        System.out.println(newString.replace("World", "Mercy"));
-//        newString = newString.replace("World", "        Mercy    ");
+//        System.out.println(newString.replace("World", "Ermies"));
+//        newString = newString.replace("World", "        Ermias    ");
 //        System.out.println(newString);
 //        System.out.println("trimmed: " + newString.trim());
 
