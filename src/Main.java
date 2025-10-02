@@ -1,5 +1,6 @@
 import java.awt.*;
 import java.lang.reflect.Array;
+import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Locale;
@@ -61,7 +62,14 @@ public class Main {
         float annualInterest = valueFromTheUser.nextFloat();
         float monthlyInterest = annualInterest / Percent / MonthsOfTheYear;
 
+        System.out.print("Period(Year): ");
+        byte years = valueFromTheUser.nextByte();
+        int numberOfPayments = years * MonthsOfTheYear;
 
+        double mortgage = principal * (monthlyInterest * Math.pow(1+ monthlyInterest, numberOfPayments)
+                          /(Math.pow(1+monthlyInterest, numberOfPayments)-1));
 
+        String MortgageFormatted = NumberFormat.getCurrencyInstance().format(mortgage);
+        System.out.println("Mortgage Formatted: " + MortgageFormatted);
     }
 }
